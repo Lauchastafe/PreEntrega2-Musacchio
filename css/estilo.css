@@ -1,0 +1,271 @@
+body {
+    margin: 0px;
+    background-color: #eee;
+}
+
+.thead {
+background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/12/23/e9/puente-colgante.jpg?w=1400&h=900&s=1);
+position: absolu;
+ width: 100%;
+ height: 600px;
+ margin-top: -200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+background-color: darkgray;
+bottom: 0px;
+
+
+}
+
+.diverso {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    width: 100%;
+    }
+
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding-inline-start: 0px;
+
+}
+nav ul li {
+    justify-content: space-evenly;
+    text-decoration: none;
+    display: inline;
+    padding: 5px 0px 0px 0px;
+    height: 40px;
+   
+    }
+
+    div ul {
+        width: 100%;
+        text-align: center;
+        margin: 0px;
+        font-size: x-large;
+        text-decoration:none;
+        height: 40px;
+
+        }
+    
+    div ul li {
+        display: inline;
+        height: 40px;
+        font-size: x-large;
+    }
+    
+    section {
+        position: relative;
+        padding: 0px 80px 50px 80px;
+        margin-top: 50px;
+    }
+    
+    .titulo {
+    color: white;
+    padding: 200px 0px 140px 200px;
+    font-size: 80px;
+    margin: 0px;
+    }
+
+    .subtitulo {
+    position: relative;
+    color: white;
+    text-align: right;
+    margin-top: 0px;
+    margin-right: 250px;
+    font-size: 40px;
+}
+
+.titulos4 {
+    text-align: center;
+    color: white;
+    padding: 200px 0px 140px 200px;
+    font-size: 80px;
+    margin: 0px;
+}
+
+.titulos5 {
+    text-align: center;
+    font-size: 30px;
+    padding: 30px;
+}    
+.titulos5 {
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin: 0px;
+    text-align: center;
+    font-size: xx-large;
+   
+}
+
+.titulos6 {
+    width: 350px;
+    height: 350px;
+    font-size: 20px;
+    padding: 30px;
+    display: inline-block;
+    margin: 0px;
+    
+}    
+.titulos7 {    
+    width: 350px;
+    height: 350px;
+    font-size: 20px;
+    padding: 30px;
+    display: inline-block;
+    margin: 0px;
+    position: relative;
+    bottom: 250px;
+    text-align: center;
+}
+
+.imageni {
+    width: 550px;
+    height: 350px;
+    display: inline-block;
+    float: left;
+    padding: 30px ;
+    position: relative;
+    top: 30px;
+}
+
+.imagend {
+        width: 550px;
+        height: 350px;
+        display: inline-block;
+        float: ri;
+        padding: 30px;
+        position: relative;
+        top: 30px;
+    }
+
+.texto {
+    height: 350px;
+    width: 900px;
+    overflow: hidden;
+    padding: 30px 30px 30px 50px;
+    font-size: x-large;
+}
+
+.texto2 {
+    height: 350px;
+    width: 900px;
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    font-size: x-large;
+    
+}
+
+.texto3 {
+    height: 200px;
+    width: 1200px;
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+    display: inline-block;
+    font-size: x-large;
+    
+}
+
+.diver {
+    display: inline-block;
+   
+}
+
+.divere {
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+    width: 100%;
+    padding: 50px;
+    color: white;
+}
+
+.hitos {
+    margin-top: 50px;
+    height: 600px;
+}
+
+#busqueda {
+    width: 500px;
+}
+#centro {
+   position: relative;
+   left: 35%;
+   right: 50%;
+   display: inline-block;
+    }
+
+
+.imagenc {
+    width: 600px;
+    height: 350px;
+}
+
+.textocentro {
+    text-align: center;
+    font
+}
+
+img {
+    padding: 20px;
+}
+
+
+.contactoimagen {
+    width: 48%;
+    height: 300px;
+    margin: 0px;
+    padding: 0;
+    display: inline-block;
+}
+
+.contactotexto {
+    width: 48%;
+    text-align: center;
+    height: 300px;
+    margin: 0px;
+    padding: 0;
+    display: inline-block;
+    bottom: 150px;
+    position: relative;    
+}
+
+.uli {
+    margin-top: 0px;
+font-size: x-large;
+}
+
+.div4 {
+    height: 350px;
+    width: 1200px;
+    overflow: hidden;
+    padding: 30px 30px 30px 50px;
+    font-size: x-large;
+    text-align: center;
+
+}
+
+
+.botones {
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+    height: 40px;
+    font-size: x-large;
+    text-decoration: none;
+    display: inline;
+    list-style-type: none
+;
+}

@@ -22,13 +22,6 @@ bottom: 0px;
 
 }
 
-.diverso {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-    width: 100%;
-    }
 
 
 nav ul {
@@ -87,7 +80,7 @@ nav ul li {
 .titulos4 {
     text-align: center;
     color: white;
-    padding: 200px 0px 140px 200px;
+    padding: 200px 0px 140px 0px;
     font-size: 80px;
     margin: 0px;
 }
@@ -96,14 +89,13 @@ nav ul li {
     text-align: center;
     font-size: 30px;
     padding: 30px;
-}    
-.titulos5 {
+    margin-top: 50px;
     width: 100%;
-    padding: 30px;
+    padding: 0px;
     padding-bottom: 0px;
-    margin: 0px;
     text-align: center;
     font-size: xx-large;
+    
    
 }
 
@@ -122,10 +114,9 @@ nav ul li {
     font-size: 20px;
     padding: 30px;
     display: inline-block;
-    margin: 0px;
-    position: relative;
+    text-align: left;
     bottom: 250px;
-    text-align: center;
+
 }
 
 .imageni {
@@ -211,6 +202,7 @@ footer {
 .imagenc {
     width: 600px;
     height: 350px;
+    margin-bottom: 30px;
 }
 
 .textocentro {
@@ -268,4 +260,64 @@ font-size: x-large;
     display: inline;
     list-style-type: none
 ;
+}
+
+
+.contenedorindex {
+    margin-top: 60px;
+    padding: 30px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedorindex2 {
+    padding: 30px 0px 30px 0px;
+   
+    
+}
+
+
+.contenedorllegar {
+    margin-top: 100px;
+    display: flex;
+    text-align: center;
+}
+.row10 {
+padding: 50px;
+}
+
+.textop {
+   height: 350px;
+    overflow: hidden;
+    padding: 30px 30px 30px 30px;
+    font-size: x-large;
+}
+
+.diverso {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin top: 20px;
+    padding: 0px;   
+    }
+
+.columnatexto {
+   width: 100 %;
+    font-size: x-large;
+}
+
+
+.imaginar {
+    width: 390px;
+    height: 390px;
+    padding: 0px;
+
+}
+.row4 {
+  margin-bottom: 50px;
+}
+
+.row5 {
+    justify-content: center;
 }

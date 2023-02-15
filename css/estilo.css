@@ -4,7 +4,7 @@ body {
 }
 
 .thead {
-background-image: url(https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0c/12/23/e9/puente-colgante.jpg?w=1400&h=900&s=1);
+background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
 position: absolu;
  width: 100%;
  height: 600px;
@@ -13,68 +13,73 @@ position: absolu;
 
 a {
     text-decoration: none;
+    color: white;  
 }
 
 nav {
-background-color: darkgray;
-bottom: 0px;
-
-
+    background: linear-gradient(90deg, rgba(6,92,242,1) 0%, rgba(9,9,121,0.9654455532212886) 27%, rgba(0,204,255,0.8) 88%);
 }
 
+iframe {
+    transition: all 0.3s ease;
+}
 
+iframe:hover {
+    transform: scale(1.2);
+}
 
 nav ul {
     display: flex;
     justify-content: space-evenly;
     padding-inline-start: 0px;
+    }
 
-}
 nav ul li {
-    justify-content: space-evenly;
-    text-decoration: none;
     display: inline;
-    padding: 5px 0px 0px 0px;
     height: 40px;
-   
+    transition: all 0.15s;
     }
 
-    div ul {
-        width: 100%;
-        text-align: center;
-        margin: 0px;
-        font-size: x-large;
-        text-decoration:none;
-        height: 40px;
+nav ul li:hover {
+    transform: scale(1.1);
+}
 
-        }
-    
-    div ul li {
-        display: inline;
-        height: 40px;
-        font-size: x-large;
+div ul {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
     }
     
-    section {
-        position: relative;
-        padding: 0px 80px 50px 80px;
-        margin-top: 50px;
-    }
+div ul li {
+    display: inline;
+    font-size: x-large;
+    justify-content: center;
+}
     
-    .titulo {
+section {
+    position: relative;
+    padding: 0px 80px 50px 80px;
+    margin-top: 50px;
+}
+    
+.titulo {
     color: white;
     padding: 200px 0px 140px 200px;
     font-size: 80px;
     margin: 0px;
+    -webkit-text-stroke-color: lightgray;
+    -webkit-text-stroke-width: 2px;
     }
 
     .subtitulo {
     position: relative;
     color: white;
-    text-align: right;
+    text-align: left;
     margin-top: 0px;
-    margin-right: 250px;
+    margin-left: 200px;
     font-size: 40px;
+    -webkit-text-stroke-color: gray;
+    -webkit-text-stroke-width: 1px;
 }
 
 .titulos4 {
@@ -86,17 +91,12 @@ nav ul li {
 }
 
 .titulos5 {
-    text-align: center;
-    font-size: 30px;
-    padding: 30px;
     margin-top: 50px;
     width: 100%;
     padding: 0px;
     padding-bottom: 0px;
     text-align: center;
     font-size: xx-large;
-    
-   
 }
 
 .titulos6 {
@@ -105,8 +105,7 @@ nav ul li {
     font-size: 20px;
     padding: 30px;
     display: inline-block;
-    margin: 0px;
-    
+    margin: 0px; 
 }    
 .titulos7 {    
     width: 350px;
@@ -116,28 +115,41 @@ nav ul li {
     display: inline-block;
     text-align: left;
     bottom: 250px;
-
 }
 
 .imageni {
     width: 550px;
     height: 350px;
     display: inline-block;
-    float: left;
     padding: 30px ;
     position: relative;
     top: 30px;
 }
 
 .imagend {
-        width: 550px;
-        height: 350px;
-        display: inline-block;
-        float: ri;
-        padding: 30px;
-        position: relative;
-        top: 30px;
-    }
+    width: 550px;
+    height: 350px;
+    display: inline-block;
+    padding: 30px;
+    position: relative;
+    top: 30px;
+}
+
+img {
+    padding: 20px;
+}
+
+.imagenc {
+    width: 600px;
+    height: 350px;
+    margin-bottom: 30px;
+}
+
+.imaginar {
+    width: 390px;
+    height: 390px;
+    padding: 0px;
+}
 
 .texto {
     height: 350px;
@@ -154,7 +166,6 @@ nav ul li {
     padding: 30px 30px 30px 30px;
     display: inline-block;
     font-size: x-large;
-    
 }
 
 .texto3 {
@@ -163,18 +174,9 @@ nav ul li {
     overflow: hidden;
     padding: 30px 30px 30px 30px;
     display: inline-block;
-    font-size: x-large;
-    
+    font-size: x-large; 
 }
 
-.diver {
-    display: inline-block;
-   
-}
-
-.divere {
-    text-align: center;
-}
 
 footer {
     background-color: darkgray;
@@ -191,6 +193,7 @@ footer {
 #busqueda {
     width: 500px;
 }
+
 #centro {
    position: relative;
    left: 35%;
@@ -199,21 +202,9 @@ footer {
     }
 
 
-.imagenc {
-    width: 600px;
-    height: 350px;
-    margin-bottom: 30px;
-}
-
 .textocentro {
     text-align: center;
-    font
 }
-
-img {
-    padding: 20px;
-}
-
 
 .contactoimagen {
     width: 48%;
@@ -236,7 +227,7 @@ img {
 
 .uli {
     margin-top: 0px;
-font-size: x-large;
+    font-size: x-large;
 }
 
 .div4 {
@@ -246,9 +237,21 @@ font-size: x-large;
     padding: 30px 30px 30px 50px;
     font-size: x-large;
     text-align: center;
-
 }
 
+.diver {
+    display: inline-block;
+}
+
+.divere {
+    text-align: center;
+}
+
+.diverso {
+    display:flex;
+    justify-content: space-between;  
+    text-align: c;
+    }
 
 .botones {
     width: 100%;
@@ -258,64 +261,44 @@ font-size: x-large;
     font-size: x-large;
     text-decoration: none;
     display: inline;
-    list-style-type: none
-;
+    list-style-type: none;
 }
-
 
 .contenedorindex {
     margin-top: 60px;
     padding: 30px 0px 15px 0px;
-    display: flex;
-    justify-content: center;
 }
 
 .contenedorindex2 {
     padding: 30px 0px 30px 0px;
-   
-    
 }
-
 
 .contenedorllegar {
     margin-top: 100px;
     display: flex;
     text-align: center;
 }
+
 .row10 {
-padding: 50px;
+    padding: 50px;
 }
 
 .textop {
-   height: 350px;
+    height: 350px;
     overflow: hidden;
     padding: 30px 30px 30px 30px;
     font-size: x-large;
 }
 
-.diverso {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    margin top: 20px;
-    padding: 0px;   
-    }
 
 .columnatexto {
-   width: 100 %;
     font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-
-.imaginar {
-    width: 390px;
-    height: 390px;
-    padding: 0px;
-
-}
 .row4 {
-  margin-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .row5 {

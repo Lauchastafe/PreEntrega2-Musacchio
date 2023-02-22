@@ -6,6 +6,7 @@ body {
 .header{
     margin: 0px;
     padding: 0px;
+    
 }
 .thead {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
@@ -265,6 +266,7 @@ footer {
     display:flex;
     flex-wrap: wrap;
     justify-content: space-between;  
+   
     }
 
 .botones {
@@ -343,4 +345,3 @@ justify-content: center;
     width: 100%;
     text-align: center;
 }
-

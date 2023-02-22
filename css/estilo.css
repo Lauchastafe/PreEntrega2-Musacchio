@@ -16,6 +16,11 @@ body {
         padding: 0px 0px 0px 0px;
         width: 100%;     
     }
+    .titulo{
+        padding: 0px;
+        margin: 0px;
+    }
+
 }
 
 .header{
@@ -144,14 +149,14 @@ section {
 .imageni {
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
+   
     border-radius: 15%;
 }
 
 .imagend {
     display: flex;
     flex-wrap: wrap;
-    height: 400px;
+    
     border-radius: 15%;
 }
 
@@ -173,7 +178,7 @@ img:hover {
     margin: 0px;
 }
 .imaginar {
-   height: 450px;
+
     padding: 20px;
     border-radius: 15%;
 }
@@ -273,6 +278,7 @@ footer {
 }
 
 .divere {
+    justify-content: center;
     text-align: center;
 }
 

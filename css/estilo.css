@@ -17,10 +17,8 @@ body {
         width: 100%;     
     }
     .titulo{
-        padding: 0px;
-        margin: 0px;
+        padding: 20px;
     }
-
 }
 
 .header{
@@ -93,7 +91,7 @@ section {
     
 .titulo {
     color: white;
-    padding: 200px 0px 140px 200px;
+    padding: 200px 0px 14px 200px;
     font-size: 80px;
     margin: 0px;
     -webkit-text-stroke-color: lightgray;

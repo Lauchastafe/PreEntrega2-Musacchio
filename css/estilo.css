@@ -10,11 +10,12 @@ body {
     }
     a{
         font-size: medium;
+    }   
+    section{
+        margin: 0px;
+        padding: 0px 0px 0px 0px;
+        width: 100%;     
     }
-    h1{
-        font-size: medium;
-    }
-    
 }
 
 .header{
@@ -295,8 +296,7 @@ footer {
 
 .contenedorindex {
     margin-top: 60px;
-    padding: 30px 0px 15px 0px;
-    background-color: rgba(0, 0, 255, 0.13);
+    padding: 30px 0px 0px 0px;
     border-radius: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -323,7 +323,7 @@ footer {
 }
 
 .textop {
-    height: 350px;
+
     overflow: hidden;
     padding: 30px 30px 30px 30px;
     font-size: x-large;

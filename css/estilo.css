@@ -3,10 +3,24 @@ body {
     padding: 0px;
     background-color: #eee;
 }
+
+@media screen and (max-width: 576px){
+    p{
+        font-size: medium;
+    }
+    a{
+        font-size: medium;
+    }
+    h1{
+        font-size: medium;
+    }
+    
+}
+
 .header{
     margin: 0px;
     padding: 0px;
-    
+
 }
 .thead {
 background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
@@ -158,8 +172,7 @@ img:hover {
     margin: 0px;
 }
 .imaginar {
-    width: 390px;
-    height: 390px;
+   height: 450px;
     padding: 20px;
     border-radius: 15%;
 }

@@ -1,0 +1,19 @@
+.texto {
+    @extend %texto;
+    @extend %wrapflex;
+    height: 350px;
+    width: 900px;
+    @include marpad(0px, 30px 30px 30px 50px);
+}
+
+.imagenh {
+    margin-top: 50px;
+}
+
+body{
+    @media screen and (max-width: 576px){
+    .imagenh{
+        margin-top: 0px;
+    }
+}
+}

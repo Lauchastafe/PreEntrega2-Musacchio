@@ -1,364 +1,349 @@
+.texto, .imagend, .imageni, .contenedorindex2, .contenedorindex, .diverso, .subtitulo, .titulo, body header div nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.comollegardiv, #centro {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.texto, .texto3, .texto2, .columnatexto, .textop, body div ul li {
+  overflow: hidden;
+  font-size: x-large;
+}
+
+.columnatexto {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.papa {
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.imagenh {
+  height: 400px;
+}
+
 body {
+  background-color: #eee;
+  margin: 0px;
+  padding: 0px;
+}
+body header {
+  margin: 0px;
+  padding: 0px;
+}
+body header div nav {
+  background: linear-gradient(90deg, rgb(6, 92, 242) 0%, rgba(9, 9, 121, 0.9654455532) 27%, rgba(0, 204, 255, 0.8) 88%);
+}
+body header div nav ul {
+  justify-content: space-around;
+}
+body header div nav ul li {
+  display: inline;
+  height: 40px;
+  transition: all 0.15s;
+}
+body header div nav ul li:hover {
+  transform: scale(1.1);
+}
+body header div nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+body div ul {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+body div ul li {
+  display: inline;
+  justify-content: center;
+}
+body section {
+  position: relative;
+  padding: 0px 80px 50px 80px;
+  margin-top: 50px;
+}
+body footer {
+  background-color: darkgray;
+  width: 100%;
+  color: white;
+  margin: 0px;
+  padding: 50px;
+}
+body img {
+  padding: 20px;
+  transition: all 0.3s;
+}
+body img:hover {
+  transform: scale(1.05);
+}
+body iframe {
+  transition: all 0.3s ease;
+}
+body iframe:hover {
+  transform: scale(1.2);
+}
+@media screen and (max-width: 576px) {
+  body p {
+    font-size: medium;
+  }
+  body a {
+    font-size: medium;
+  }
+  body section {
     margin: 0px;
+    padding: 0px 30px 30px 30px;
+    width: 100%;
+  }
+  body .titulo {
+    padding: 250px 30px 20px 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  body .subtitulo {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     padding: 0px;
-    background-color: #eee;
-}
-
-@media screen and (max-width: 576px){
-    p{
-        font-size: medium;
-    }
-    a{
-        font-size: medium;
-    }   
-    section{
-        margin: 0px;
-        padding: 0px 0px 0px 0px;
-        width: 100%;     
-    }
-    .titulo{
-        padding: 20px;
-    }
-}
-
-.header{
     margin: 0px;
+  }
+  body .textop {
     padding: 0px;
-
+  }
+  body .hitos {
+    margin: 0px;
+  }
 }
+
 .thead {
-background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
- width: 100%;
- height: 600px;
- margin-top: -200px;
-}
-    
-a {
-    text-decoration: none;
-    color: white;  
-}
-
-nav {
-    background: linear-gradient(90deg, rgba(6,92,242,1) 0%, rgba(9,9,121,0.9654455532212886) 27%, rgba(0,204,255,0.8) 88%);
-}
-
-iframe {
-    transition: all 0.3s ease;
-}
-
-iframe:hover {
-    transform: scale(1.2);
-}
-
-nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    justify-content: space-evenly;
-    gap: 25px;
-    padding-inline-start: 0px;
-    }
-
-nav ul li {
-    display: inline;
-    height: 40px;
-    transition: all 0.15s;
-    }
-
-nav ul li:hover {
-    transform: scale(1.1);
-}
-
-div ul {
-    width: 100%;
-    margin: 0px;
-    text-align: center;
-    }
-    
-div ul li {
-    display: inline;
-    font-size: x-large;
-    justify-content: center;
-}
-    
-section {
-    position: relative;
-    padding: 0px 80px 50px 80px;
-    margin-top: 50px;
-  
-    
-}
-    
-.titulo {
-    color: white;
-    padding: 200px 0px 14px 200px;
-    font-size: 80px;
-    margin: 0px;
-    -webkit-text-stroke-color: lightgray;
-    -webkit-text-stroke-width: 2px;
-    }
-
-    .subtitulo {
-    position: relative;
-    color: white;
-    text-align: left;
-    margin-top: 0px;
-    margin-left: 200px;
-    font-size: 40px;
-    -webkit-text-stroke-color: gray;
-    -webkit-text-stroke-width: 1px;
-}
-
-.titulos4 {
-    text-align: center;
-    color: white;
-    padding: 200px 0px 140px 0px;
-    font-size: 80px;
-    margin: 0px;
-}
-
-.titulos5 {
-    margin-top: 50px;
-    width: 100%;
-    padding: 0px;
-    padding-bottom: 0px;
-    text-align: center;
-    font-size: xx-large;
-}
-
-.titulos6 {
-    width: 350px;
-    height: 350px;
-    font-size: 20px;
-    padding: 30px;
-    display: inline-block;
-    margin: 0px; 
-}    
-.titulos7 {    
-    width: 350px;
-    height: 350px;
-    font-size: 20px;
-    padding: 30px;
-    display: inline-block;
-    text-align: left;
-    bottom: 250px;
-}
-
-.imageni {
-    display: flex;
-    flex-wrap: wrap;
-   
-    border-radius: 15%;
-}
-
-.imagend {
-    display: flex;
-    flex-wrap: wrap;
-    
-    border-radius: 15%;
-}
-
-img {
-    padding: 20px;
-    transition: all 0.3s;
-}
-
-img:hover {
-    transform: scale(1.05);
-}
-.imagenc {
-    margin-bottom: 30px;
-    border-radius: 15%;
-   
-}
-
-.papa{
-    margin: 0px;
-}
-.imaginar {
-
-    padding: 20px;
-    border-radius: 15%;
-}
-
-.texto {
-    height: 350px;
-    width: 900px;
-    overflow: hidden;
-    padding: 30px 30px 30px 50px;
-    font-size: x-large;
-}
-
-.texto2 {
-    height: 350px;
-    width: 900px;
-    overflow: hidden;
-    padding: 30px 30px 30px 30px;
-    display: inline-block;
-    font-size: x-large;
-}
-
-.texto3 {
-    height: 200px;
-    width: 1200px;
-    overflow: hidden;
-    padding: 30px 30px 30px 30px;
-    display: inline-block;
-    font-size: x-large; 
-}
-
-
-footer {
-    background-color: darkgray;
-    width: 100%;
-    padding: 50px;
-    color: white;
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
+  width: 100%;
+  height: 600px;
+  margin-top: -200px;
 }
 
 .hitos {
-    margin-top: 50px;
-    height: 600px;
+  margin-top: 50px;
+  height: 600px;
 }
 
-#busqueda {
-    width: 500px;
+.titulo {
+  color: white;
+  margin: 0px;
+  padding: 200px 0px 14px 200px;
+  font-size: 80px;
+  -webkit-text-stroke-color: lightgray;
+  -webkit-text-stroke-width: 2px;
 }
 
-#centro {
-   display: flex;
-   flex-wrap: wrap;
-   justify-content: center;
-   left: 35%;
-   right: 50%;
-  
-    }
-
-
-.textocentro {
-    text-align: center;
-}
-
-.contactoimagen {
-    width: 48%;
-    height: 300px;
-    margin: 0px;
-    padding: 0;
-    display: inline-block;
-}
-
-.contactotexto {
-    width: 48%;
-    text-align: center;
-    height: 300px;
-    margin: 0px;
-    padding: 0;
-    display: inline-block;
-    bottom: 150px;
-    position: relative;    
-}
-
-.uli {
-    margin-top: 0px;
-    font-size: x-large;
-}
-
-.div4 {
-    height: 350px;
-    width: 1200px;
-    overflow: hidden;
-    padding: 30px 30px 30px 50px;
-    font-size: x-large;
-    text-align: center;
-}
-
-.diver {
-    display: inline-block;
-}
-
-.divere {
-    justify-content: center;
-    text-align: center;
+.subtitulo {
+  position: relative;
+  color: white;
+  text-align: left;
+  margin-top: 0px;
+  margin-left: 200px;
+  font-size: 40px;
+  -webkit-text-stroke-color: gray;
+  -webkit-text-stroke-width: 1px;
 }
 
 .diverso {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;  
-   
-    }
-
-.botones {
-    width: 100%;
-    text-align: center;
-    margin: 0px;
-    height: 40px;
-    font-size: x-large;
-    text-decoration: none;
-    display: inline;
-    list-style-type: none;
+  justify-content: space-between;
 }
 
 .contenedorindex {
-    margin-top: 60px;
-    padding: 30px 0px 0px 0px;
-    border-radius: 5%;
-    display: flex;
-    flex-wrap: wrap;
+  margin-top: 60px;
+  padding: 30px 0px 0px 0px;
+  border-radius: 5%;
 }
 
 .contenedorindex2 {
-    padding: 30px 0px 30px 0px;
-    background-color: #eee;
-    display: flex;
-    flex-wrap: wrap;
+  padding: 30px 0px 30px 0px;
+  background-color: #eee;
 }
 
-.contenedorllegar {
-    margin-top: 100px;
-    flex-wrap: wrap;
-    justify-content: center;
-
+.imageni {
+  border-radius: 15%;
 }
 
-.row10 {
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
+.imagend {
+  border-radius: 15%;
 }
 
 .textop {
-
-    overflow: hidden;
-    padding: 30px 30px 30px 30px;
-    font-size: x-large;
-}
-
-
-.columnatexto {
-font-size: x-large;
-text-align: center;
-justify-content: center;
-}
-
-.row4 {
-    margin-bottom: 50px;
-}
-
-.row5 {
-    justify-content: center;
+  padding: 30px 30px 30px 30px;
+  align-self: center;
 }
 
 .barrainferior {
-    margin:50px;
+  margin: 0px;
+  padding: 0px;
+  margin: 50px;
 }
 
-.comollegardiv {
-    display: flex;
-    flex-wrap: wrap; 
-    justify-content: center;
+@media screen and (max-width: 576px) {
+  body .titulos4 {
+    font-size: 60px;
+    margin-top: 80px;
+  }
+}
+
+#centro {
+  left: 35%;
+  right: 50%;
+}
+
+.contenedorllegar {
+  margin-top: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .titulocomo {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
+
+.titulos4 {
+  text-align: center;
+  color: white;
+  margin: 0px;
+  padding: 200px 0px 140px 0px;
+  font-size: 80px;
+}
+
+.titulos5 {
+  margin-top: 50px;
+  width: 100%;
+  padding: 0px;
+  padding-bottom: 0px;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.titulos6 {
+  width: 350px;
+  height: 350px;
+  font-size: 20px;
+  margin: 0px;
+  padding: 30px;
+  display: inline-block;
+}
+
+.titulos7 {
+  width: 350px;
+  height: 350px;
+  font-size: 20px;
+  padding: 30px;
+  display: inline-block;
+  text-align: left;
+  bottom: 250px;
+}
+
+.imagenc {
+  margin-bottom: 30px;
+  border-radius: 15%;
+}
+
+.imaginar {
+  padding: 20px;
+  border-radius: 15%;
+}
+
+.row4 {
+  margin-bottom: 50px;
+}
+
+.row5 {
+  justify-content: center;
+}
+
+.divere {
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 576px) {
+  body .texto3 {
+    font-size: medium;
+  }
+}
+
+.texto2 {
+  height: 350px;
+  display: inline-block;
+}
+
+.texto3 {
+  height: 200px;
+  display: inline-block;
+}
+
+.imagenf {
+  height: 350px;
+}
+
+.texto {
+  height: 350px;
+  width: 900px;
+  margin: 0px;
+  padding: 30px 30px 30px 50px;
+}
+
+.imagenh {
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  body .imagenh {
+    margin-top: 0px;
+  }
+}
+
+.contactotitulo {
+  text-align: center;
+  padding: 30px;
+  font-size: 100px;
+}
+
+.contactosubtitulo {
+  text-align: center;
+  font-size: 25px;
+}
+
+.contactoboton {
+  text-align: center;
+  font-size: 20px;
+}
+
+.contacto {
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.tarjeta {
+  margin-top: 30px;
+}
+
+@media screen and (max-width: 576px) {
+  body .contactotitulo {
+    font-size: xx-large;
+  }
+  body .contactosubtitulo {
+    font-size: medium;
+  }
+  body .contactoboton {
+    font-size: medium;
+  }
+}
+
+/*# sourceMappingURL=estilo.css.map */

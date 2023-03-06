@@ -1,0 +1,178 @@
+body{
+    background-color: nth($colores, 1);
+    @include marpad(0px, 0px);
+    
+   
+    header{
+        @include marpad(0px, 0px);
+        div{
+            nav{
+                background: $cnav;
+                ul{
+                    @extend %wrapflex;
+                    justify-content: space-around;
+                    li{
+                        display: inline;
+                        height: 40px;
+                        transition: all 0.15s;
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                        a{
+                                text-decoration: none;
+                                color: white;      
+                        }
+                    }
+                }
+            }
+        }
+    }
+    div{
+        ul{
+            width: 100%;
+            margin: 0px;
+            text-align: center;
+            li{
+                @extend %texto;
+                display: inline;
+                justify-content: center;
+            }
+        }
+    }
+    section {
+        position: relative;
+        padding: 0px 80px 50px 80px;
+        margin-top: nth($ftama, 4);
+        
+          
+    }  
+    footer {
+        background-color: nth($colores, 2);
+        width: 100%;
+        color: nth($colores, 4);
+        @include marpad(nth($ftama, 1) , nth($ftama, 4));
+    }
+    img {
+        padding: 20px;
+        transition: all 0.3s;
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    iframe{
+        transition: all 0.3s ease;
+        &:hover{
+            transform: scale(1.2);
+        } 
+    }
+    @media screen and (max-width: 576px){
+        p{
+            font-size: medium;
+        }
+        a{
+            font-size: medium;
+        }   
+        section{
+            margin: 0px;
+            padding: 0px 30px 30px 30px;
+            width: 100%;     
+        }
+        .titulo {
+            padding: 250px 30px 20px 30px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+          }
+        .subtitulo {
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin: 0px;
+          }
+        .textop{
+            padding: 0px;
+        }
+        .hitos {
+            margin: 0px;
+        }
+      }
+    
+    
+}
+
+
+
+.thead {
+     background-image: $imagen1;
+     width: 100%;
+     height: nth($ftama, 9);
+     margin-top: -200px;
+}
+
+.hitos {
+    margin-top: nth($ftama, 4);
+    height: nth($ftama, 9);
+}
+
+.titulo{
+    color: nth($colores, 4);
+    @include marpad(nth($ftama, 1), 200px 0px 14px 200px);
+    font-size: nth($ftama, 6);
+    -webkit-text-stroke-color: nth($colores, 3 );
+    -webkit-text-stroke-width: 2px;
+    @extend %wrapflex;
+}
+
+.subtitulo {
+    position: relative;
+    color: nth($colores, 4);
+    text-align: left;
+    margin-top: nth($ftama, 1);
+    margin-left: nth($ftama , 7);
+    font-size: nth($ftama , 3);
+    -webkit-text-stroke-color: nth($colores, 5);
+    -webkit-text-stroke-width: 1px;
+    @extend %wrapflex;
+}
+
+.diverso {
+    @extend %wrapflex;
+    justify-content: space-between;
+}
+
+.contenedorindex {
+    margin-top: nth($ftama, 5);
+    padding: 30px 0px 0px 0px;
+    border-radius: 5%;
+    @extend %wrapflex;
+}
+
+.contenedorindex2 {
+    padding: 30px 0px 30px 0px;
+    background-color: nth($colores, 1);
+    @extend %wrapflex;
+}
+
+.imageni {
+    @extend %wrapflex;
+    border-radius: 15%;
+}
+
+.imagend {
+    @extend %wrapflex;
+    border-radius: 15%;
+}
+
+.textop {
+    @extend %texto;
+    padding: 30px 30px 30px 30px;
+    align-self: center;
+    
+}
+
+.barrainferior {
+    @include marpad(0px, 0px);
+    margin:nth($ftama, 4);
+}
+

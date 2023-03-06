@@ -1,0 +1,31 @@
+%wrapflex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+%wrapflexjus{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+%texto{
+    overflow: hidden;
+    font-size: x-large;
+}
+
+%texto2{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.papa {
+    
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.imagenh {
+    height: 400px;
+}

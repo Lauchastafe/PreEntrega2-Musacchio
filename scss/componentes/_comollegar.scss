@@ -1,0 +1,97 @@
+body{
+    @media screen and (max-width: 576px){
+    .titulos4{
+        font-size: nth($ftama, 5);
+        margin-top:  nth($ftama, 6 )
+    }
+}
+}
+#centro {
+    @extend %wrapflexjus;
+    left: 35%;
+    right: 50%; 
+    } 
+
+ 
+.contenedorllegar {
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+ 
+.comollegardiv {
+    @extend %wrapflexjus
+       
+    }
+    
+.titulocomo {
+        width: 100%;
+        text-align: center;
+    }    
+
+.titulos4 {
+        text-align: center;
+        color: nth($colores, 4);
+        @include marpad(nth($ftama, 1), 200px 0px 140px 0px);
+        font-size: nth($ftama, 6);
+       
+    }
+
+.titulos5 {
+        margin-top: nth($ftama, 4);
+        width: 100%;
+        padding: nth($ftama, 1);
+        padding-bottom: nth($ftama, 1);
+        text-align: center;
+        font-size: xx-large;
+    }
+
+.titulos6 {
+        width: nth($ftama, 8);
+        height: nth($ftama, 8);
+        font-size: nth($ftama, 2);
+        @include marpad (nth($ftama, 1), 30px);
+        display: inline-block;
+      
+    }    
+.titulos7 {    
+        width: nth($ftama, 8);
+        height: nth($ftama, 8);
+        font-size: nth($ftama, 2);
+        padding: 30px;
+        display: inline-block;
+        text-align: left;
+        bottom: 250px;
+    }
+    
+    
+.imagenc {
+    margin-bottom: 30px;
+    border-radius: 15%;    
+}
+
+.imaginar {
+    padding: nth($ftama, 2);
+    border-radius: 15%;
+}
+
+.columnatexto {
+    @extend %texto;
+    @extend %texto2;
+    }
+
+.row4 {
+        margin-bottom: nth($ftama, 4);
+    }
+    
+.row5 {
+        justify-content: center;
+    }
+    
+.divere {
+        justify-content: center;
+        text-align: center;
+    }
+    
+
+    

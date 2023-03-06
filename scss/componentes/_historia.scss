@@ -6,12 +6,16 @@ body {
 }
 }
 .texto2 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
     height: nth($ftama, 8);
     display: inline-block;
     @extend %texto; 
 }
 
 .texto3 {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
     height: nth($ftama, 7);
     display: inline-block;
     @extend %texto; 

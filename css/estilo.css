@@ -53,6 +53,8 @@ body header div nav ul li:hover {
   transform: scale(1.1);
 }
 body header div nav ul li a {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   text-decoration: none;
   color: white;
 }
@@ -71,6 +73,8 @@ body section {
   margin-top: 50px;
 }
 body footer {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   background-color: darkgray;
   width: 100%;
   color: white;
@@ -122,6 +126,12 @@ body iframe:hover {
     margin: 0px;
   }
 }
+body h2 {
+  font-weight: 600;
+}
+body h3 {
+  font-weight: 400;
+}
 
 .thead {
   background-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b4/Santa_fe.jpg);
@@ -139,6 +149,8 @@ body iframe:hover {
   color: white;
   margin: 0px;
   padding: 200px 0px 14px 200px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   font-size: 80px;
   -webkit-text-stroke-color: lightgray;
   -webkit-text-stroke-width: 2px;
@@ -179,6 +191,8 @@ body iframe:hover {
 }
 
 .textop {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   padding: 30px 30px 30px 30px;
   align-self: center;
 }
@@ -208,11 +222,15 @@ body iframe:hover {
 }
 
 .titulocomo {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
   width: 100%;
   text-align: center;
 }
 
 .titulos4 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
   text-align: center;
   color: white;
   margin: 0px;
@@ -239,6 +257,8 @@ body iframe:hover {
 }
 
 .titulos7 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
   width: 350px;
   height: 350px;
   font-size: 20px;
@@ -256,6 +276,11 @@ body iframe:hover {
 .imaginar {
   padding: 20px;
   border-radius: 15%;
+}
+
+.columnatexto {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 
 .row4 {
@@ -278,11 +303,15 @@ body iframe:hover {
 }
 
 .texto2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
   height: 350px;
   display: inline-block;
 }
 
 .texto3 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
   height: 200px;
   display: inline-block;
 }
@@ -344,6 +373,16 @@ body iframe:hover {
   body .contactoboton {
     font-size: medium;
   }
+}
+
+body h2 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+
+body h1 {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
 }
 
 /*# sourceMappingURL=estilo.css.map */

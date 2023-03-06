@@ -19,6 +19,8 @@ body{
                             transform: scale(1.1);
                         }
                         a{
+                                font-family: 'Quicksand', sans-serif;
+                                font-weight: 500;
                                 text-decoration: none;
                                 color: white;      
                         }
@@ -47,6 +49,8 @@ body{
           
     }  
     footer {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 300;
         background-color: nth($colores, 2);
         width: 100%;
         color: nth($colores, 4);
@@ -97,8 +101,12 @@ body{
             margin: 0px;
         }
       }
-    
-    
+    h2 {
+        font-weight: 600 ;
+      }
+    h3  {
+        font-weight: 400;
+    }
 }
 
 
@@ -118,6 +126,8 @@ body{
 .titulo{
     color: nth($colores, 4);
     @include marpad(nth($ftama, 1), 200px 0px 14px 200px);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
     font-size: nth($ftama, 6);
     -webkit-text-stroke-color: nth($colores, 3 );
     -webkit-text-stroke-width: 2px;
@@ -165,9 +175,12 @@ body{
 }
 
 .textop {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
     @extend %texto;
     padding: 30px 30px 30px 30px;
     align-self: center;
+
     
 }
 

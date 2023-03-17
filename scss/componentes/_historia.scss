@@ -3,6 +3,9 @@ body {
         .texto3{
             font-size: medium;
         }
+        .contenedorindex3 {
+            margin-top: 30px;
+        }
 }
 }
 .texto2 {
@@ -23,6 +26,13 @@ body {
 
 .imagenf{
     height: 350px;
+}
+
+.contenedorindex3 {
+    margin-top: nth($ftama, 5);
+    padding: 30px 0px 0px 0px;
+    border-radius: 5%;
+    @extend %wrapflex;
 }
 
 

@@ -4,6 +4,10 @@ body{
         font-size: nth($ftama, 5);
         margin-top:  nth($ftama, 6 )
     }
+    .carrusa{
+        height: 300px;
+        width: 300px;
+    }
 }
 }
 #centro {
@@ -103,3 +107,17 @@ body{
     
 
     
+.carrusa{
+    width: 600px;
+    height: 600px;
+    border-radius: 15%;
+}
+
+.carre{
+    @extend %wrapflex;
+    justify-content: center;
+}
+.bloque{
+    width: 100%;
+    text-align: center;
+}

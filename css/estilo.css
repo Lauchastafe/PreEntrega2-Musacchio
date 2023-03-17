@@ -1,4 +1,4 @@
-.texto, .imagend, .imageni, .contenedorindex2, .contenedorindex, .diverso, .subtitulo, .titulo, body header div nav ul {
+.texto, .carre, .eventos, .imagend, .imageni, .contenedorindex2, .contenedorindex, .diverso, .subtitulo, .titulo, body header div nav ul {
   display: flex;
   flex-wrap: wrap;
 }
@@ -40,9 +40,11 @@ body header {
 }
 body header div nav {
   background: linear-gradient(90deg, rgb(6, 92, 242) 0%, rgba(9, 9, 121, 0.9654455532) 27%, rgba(0, 204, 255, 0.8) 88%);
+  width: 100%;
 }
 body header div nav ul {
   justify-content: space-around;
+  padding: 0px;
 }
 body header div nav ul li {
   display: inline;
@@ -61,6 +63,7 @@ body header div nav ul li a {
 body div ul {
   width: 100%;
   margin: 0px;
+  padding: 0px;
   text-align: center;
 }
 body div ul li {
@@ -82,7 +85,7 @@ body footer {
   padding: 50px;
 }
 body img {
-  padding: 20px;
+  padding: 20px 0px;
   transition: all 0.3s;
 }
 body img:hover {
@@ -106,6 +109,9 @@ body iframe:hover {
     padding: 0px 30px 30px 30px;
     width: 100%;
   }
+  body .contenedorindex {
+    margin-top: 10px;
+  }
   body .titulo {
     padding: 250px 30px 20px 30px;
     text-align: center;
@@ -118,9 +124,16 @@ body iframe:hover {
     align-items: center;
     padding: 0px;
     margin: 0px;
+    font-size: 20px;
   }
   body .textop {
     padding: 0px;
+  }
+  body .eventos {
+    margin-top: 70px;
+    margin-bottom: -20px;
+    margin-left: 0;
+    justify-content: center;
   }
   body .hitos {
     margin: 0px;
@@ -203,10 +216,20 @@ body h3 {
   margin: 50px;
 }
 
+.eventos {
+  margin-left: 225px;
+  margin-top: 100px;
+  margin-bottom: -60px;
+}
+
 @media screen and (max-width: 576px) {
   body .titulos4 {
     font-size: 60px;
     margin-top: 80px;
+  }
+  body .carrusa {
+    height: 300px;
+    width: 300px;
   }
 }
 
@@ -293,6 +316,21 @@ body h3 {
 
 .divere {
   justify-content: center;
+  text-align: center;
+}
+
+.carrusa {
+  width: 600px;
+  height: 600px;
+  border-radius: 15%;
+}
+
+.carre {
+  justify-content: center;
+}
+
+.bloque {
+  width: 100%;
   text-align: center;
 }
 
@@ -383,6 +421,10 @@ body h2 {
 body h1 {
   font-family: "Quicksand", sans-serif;
   font-weight: 700;
+}
+
+.imacontacto {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
